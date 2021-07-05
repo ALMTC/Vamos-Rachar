@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vamos Rachar</string>
+    <string name="imglogo">imglogo</string>
+    <string name="imgreais">imgreais</string>
+    <string name="_0">0</string>
+    <string name="r_0_00">R$ 0.00</string>
+    <string name="todo">TODO</string>
+    <string name="btcomp">btcomp</string>
+    <string name="btfalar">btfalar</string>
+</resources>

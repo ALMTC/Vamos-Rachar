@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C48E6"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="336dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/valor"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/reais"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:textColor="#ECECEC"
+        android:textColorHint="#ECECEC"
+        android:textSize="72sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/pessoas"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/pessoas"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/pessoas"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#ECECEC"
+        android:textColorHint="#ECECEC"
+        android:textSize="72sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/r_0_00"
+        android:textColor="#FFFFFF"
+        android:textSize="72sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pessoas" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/compartilhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#323A66"
+        android:clickable="true"
+        android:elevation="8dp"
+        android:focusable="true"
+        app:tint="#FFFFFF"
+        app:fabCustomSize="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/falar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultado"
+        app:maxImageSize="80dp"
+        app:srcCompat="@drawable/share"
+        android:contentDescription="@string/btcomp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/falar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#323A66"
+        android:clickable="true"
+        android:elevation="8dp"
+        android:focusable="true"
+        app:fabCustomSize="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/compartilhar"
+        app:layout_constraintTop_toBottomOf="@+id/resultado"
+        app:maxImageSize="80dp"
+        app:srcCompat="@drawable/falar"
+        app:tint="#FFFFFF"
+        app:useCompatPadding="false"
+        android:contentDescription="@string/btfalar" />
+</androidx.constraintlayout.widget.ConstraintLayout>
