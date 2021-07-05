@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
         }
         if(v == tocar){
             if(ttsPlay != null){
-                ttsPlay.speak("O valor da conta por pessoa foi de "+ res.getText().toString()+"reais", TextToSpeech.QUEUE_FLUSH,null, "ID1");
+                ttsPlay.speak("O valor da conta por pessoa foi de "+ res.getText().toString(), TextToSpeech.QUEUE_FLUSH,null, "ID1");
             }
         }
     }
