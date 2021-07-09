@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
 
         texValor = findViewById(R.id.valor);

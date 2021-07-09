@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Let\'s Divide</string>
+    <string name="imglogo">imglogo</string>
+    <string name="imgreais">imgdolar</string>
+    <string name="_0">0</string>
+    <string name="r_0_00">R$ 0.00</string>
+    <string name="todo">TODO</string>
+    <string name="btcomp">btshare</string>
+    <string name="btfalar">bttalk</string>
+</resources>

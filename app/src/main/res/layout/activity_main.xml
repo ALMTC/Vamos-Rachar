@@ -48,8 +48,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:ignore="LabelFor"
-        android:importantForAutofill="no" />
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -77,8 +77,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        tools:ignore="LabelFor"
-        android:importantForAutofill="no" />
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/resultado"
