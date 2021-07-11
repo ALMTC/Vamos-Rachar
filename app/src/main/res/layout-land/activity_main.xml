@@ -28,6 +28,7 @@
         android:id="@+id/imageView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:importantForAccessibility="no"
         app:layout_constraintEnd_toStartOf="@+id/pessoas"
         app:layout_constraintHeight_default="percent"
         app:layout_constraintHeight_percent="0.15"
@@ -37,16 +38,15 @@
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="0.30"
         app:srcCompat="@drawable/reais"
-        android:contentDescription="@string/imgRS"
         tools:ignore="ContentDescription" />
 
     <EditText
         android:id="@+id/valor"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:contentDescription="@string/valor"
         android:elegantTextHeight="true"
         android:ems="4"
+        android:hint="@string/valor"
         android:importantForAutofill="no"
         android:includeFontPadding="false"
         android:inputType="number"
@@ -69,6 +69,8 @@
         android:id="@+id/imageView3"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:contentDescription="@string/imgPessoas"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="@+id/pessoas"
         app:layout_constraintEnd_toStartOf="@+id/valor"
         app:layout_constraintHeight_default="percent"
@@ -78,16 +80,15 @@
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="0.30"
         app:srcCompat="@drawable/pessoas"
-        android:contentDescription="@string/imgPessoas"
         tools:ignore="ContentDescription" />
 
     <EditText
         android:id="@+id/pessoas"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:contentDescription="@string/totalopessoas"
         android:elegantTextHeight="true"
         android:ems="4"
+        android:hint="@string/totalopessoas"
         android:importantForAutofill="no"
         android:inputType="number"
         android:textColor="#ECECEC"
