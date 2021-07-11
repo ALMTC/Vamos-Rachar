@@ -13,6 +13,7 @@
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:contentDescription="@string/logodesc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_default="percent"
         app:layout_constraintHeight_percent="0.30"
@@ -21,8 +22,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="1"
-        app:srcCompat="@drawable/logo"
-        tools:ignore="ContentDescription" />
+        app:srcCompat="@drawable/logo"/>
 
     <ImageView
         android:id="@+id/imageView2"
@@ -37,12 +37,14 @@
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="0.30"
         app:srcCompat="@drawable/reais"
+        android:contentDescription="@string/imgRS"
         tools:ignore="ContentDescription" />
 
     <EditText
         android:id="@+id/valor"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:contentDescription="@string/valor"
         android:elegantTextHeight="true"
         android:ems="4"
         android:importantForAutofill="no"
@@ -50,7 +52,7 @@
         android:inputType="number"
         android:textColor="#ECECEC"
         android:textColorHint="#ECECEC"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_default="percent"
@@ -76,12 +78,14 @@
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="0.30"
         app:srcCompat="@drawable/pessoas"
+        android:contentDescription="@string/imgPessoas"
         tools:ignore="ContentDescription" />
 
     <EditText
         android:id="@+id/pessoas"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:contentDescription="@string/totalopessoas"
         android:elegantTextHeight="true"
         android:ems="4"
         android:importantForAutofill="no"
@@ -106,6 +110,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal|center_vertical"
+        android:contentDescription="@string/resultado"
         android:elegantTextHeight="true"
         android:text="@string/r_0_00"
         android:textAlignment="center"

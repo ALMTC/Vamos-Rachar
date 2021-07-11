@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Let\'s Divide</string>
+    <string name="app_name">Let\'s Split</string>
     <string name="imglogo">imglogo</string>
     <string name="imgreais">imgdolar</string>
     <string name="_0">0</string>
     <string name="r_0_00">R$ 0.00</string>
     <string name="todo">TODO</string>
-    <string name="btcomp">btshare</string>
-    <string name="btfalar">bttalk</string>
+    <string name="btcomp">Compartilhar o valor por pessoas</string>
+    <string name="btfalar">State the value per person </string>
+    <string name="textFalaCompra">\"The account value per person was \"</string>
+    <string name="TTSativo">Aticve TTS…</string>
+    <string name="TTSinativo">No active TTS…</string>
+    <string name="logodesc">Let\'s split the bill</string>
+    <string name="valor">Enter the total amount</string>
+    <string name="totalopessoas">Enter the amount of people</string>
+    <string name="resultado">Value per person</string>
+    <string name="imgRS">dollar sign image</string>
+    <string name="imgPessoas">image peoples</string>
+    <string name="moeda">dolars</string>
 </resources>
